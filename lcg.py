@@ -110,6 +110,8 @@ def build():
     urls = [""] + [f'{g["slug"]}.html' for g in guides] + ["about.html","disclosure.html"]
     (OUT/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+"".join(f"<url><loc>{base}/{u}</loc><lastmod>{today}</lastmod></url>" for u in urls)+"</urlset>\n")
     (OUT/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n")
+    if c.get("indexnow_key"):  # IndexNow (Bing/DuckDuckGo/Yandex) ownership file
+        (OUT/f'{c["indexnow_key"]}.txt').write_text(c["indexnow_key"])
     print(f"built {len(guides)} guides -> {OUT}  (tag={c['affiliate_tag']})")
     for s, a in dropped: print(f"  hid dead/unknown ASIN {a} in {s}")
 
