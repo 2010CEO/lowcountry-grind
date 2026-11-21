@@ -44,7 +44,7 @@ def page(c, title, desc, body, root, canonical_path, jsonld, guides):
     nav = "".join(f'<a href="{root}{g["slug"]}.html">{E(short(g["title"]))}</a>' for g in guides[:5])
     return tpl("base.html").substitute(page_title=E(title), meta_desc=E(desc), canonical=E(c["base_url"].rstrip("/")+"/"+canonical_path),
         root=root, jsonld=json.dumps(jsonld), logo_svg=LOGO, site_name=E(c["site_name"]), nav=nav, body=body,
-        tagline=E(c["tagline"]), year=c["year"], ai_note=E(c["ai_note"]), contact_email=E(c["contact_email"]))
+        tagline=E(c["tagline"]), year=c["year"], ai_note=E(c["ai_note"]), contact_html=(f' &middot; <a href="mailto:{E(c["contact_email"])}">Contact</a>' if c.get("contact_email") else ""))
 
 def short(t):
     t = re.sub(r"^(The )?Best ", "", t); t = re.sub(r"Coffee Gift Guide:.*", "Gifts", t)
@@ -103,7 +103,7 @@ def build():
 <p><b>Prices and ratings:</b> we don't publish prices, star ratings, or review counts because they change constantly. Always check the current price and details on Amazon before you buy.</p>
 <p><b>AI assistance:</b> {E(c["ai_note"])}</p></main>'''
     (OUT/"disclosure.html").write_text(page(c, f'Disclosure | {c["site_name"]}', "How this site makes money.", disc, "", "disclosure.html", {}, guides), encoding="utf-8")
-    about = f'<section class="ghead"><div class="wrap"><h1>About {E(c["site_name"])}</h1></div></section><main class="wrap block prose"><p>{E(c["owner_blurb"])}</p><p>{E(c["ai_note"])}</p><p>Questions or a product you want us to look at? <a href="mailto:{E(c["contact_email"])}">{E(c["contact_email"])}</a></p></main>'
+    about = f'<section class="ghead"><div class="wrap"><h1>About {E(c["site_name"])}</h1></div></section><main class="wrap block prose"><p>{E(c["owner_blurb"])}</p><p>{E(c["ai_note"])}</p>' + (f'<p>Questions or a product you want us to look at? <a href="mailto:{E(c["contact_email"])}">{E(c["contact_email"])}</a></p>' if c.get("contact_email") else "") + '</main>'
     (OUT/"about.html").write_text(page(c, f'About | {c["site_name"]}', c["tagline"], about, "", "about.html", {}, guides), encoding="utf-8")
     # sitemap + robots
     today = datetime.date.today().isoformat(); base = c["base_url"].rstrip("/")
