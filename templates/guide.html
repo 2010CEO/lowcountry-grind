@@ -1,19 +1,27 @@
-<section class="ghead"><div class="wrap">
-<div class="kicker">Buying guide</div>
+<header class="g-hero"><div class="wrap g-hero-grid">
+<div class="g-hero-copy">
+<nav class="crumbs"><a href="index.html">Home</a><span>/</span><a href="index.html#guides">Buying guides</a></nav>
 <h1>${title}</h1>
 <p class="dek">${dek}</p>
-<div class="meta">Updated ${updated} &middot; ${n_picks} picks &middot; Prices: check current price on Amazon</div>
-</div></section>
-<main class="wrap">
-<section class="block prose">
-<p class="callout"><b>Disclosure:</b> As an Amazon Associate I earn from qualifying purchases. This guide contains affiliate links; buying through them may earn us a commission at no extra cost to you. We don't print prices or star ratings because they change constantly; check the current price on Amazon.</p>
-${intro}
+<div class="meta"><span>Updated ${updated}</span><span>${n_picks} picks</span><span>Live prices on Amazon</span></div>
+</div>
+<figure class="g-hero-img"><img src="img/${photo}.webp" srcset="img/${photo}-sm.webp 640w, img/${photo}.webp 1200w" sizes="(max-width: 900px) 100vw, 45vw" alt="${photo_alt}" fetchpriority="high"></figure>
+</div></header>
+
+<div class="wrap g-layout">
+<main class="g-main">
+<section class="quick" id="quick"><h2>The short list</h2><ol>${quick}</ol></section>
+<section class="prose intro">${intro}
+<p class="disclosure-note"><b>Heads up:</b> this guide contains affiliate links. If you buy through them we may earn a commission at no extra cost to you. We don't print prices or star ratings because they change constantly.</p>
 </section>
-<h2 class="sec">The picks</h2>
+<h2 class="sec" id="picks">Our picks</h2>
 <div class="picks">${picks}</div>
-<h2 class="sec">Side by side</h2>
+<h2 class="sec" id="compare">Side by side</h2>
 <div class="tablewrap"><table class="cmp"><thead><tr>${thead}</tr></thead><tbody>${tbody}</tbody></table></div>
-<div class="bartip"><b>Tip from behind the bar</b>${bar_tip}</div>
-<section class="prose"><h2 class="sec">How we picked</h2><p>${how}</p>
-<h2 class="sec">Questions people ask</h2>${faq}</section>
+<aside class="bartip"><div class="bartip-k">Tip from behind the bar</div><p>${bar_tip}</p></aside>
+<section class="prose"><h2 class="sec" id="how">How we picked</h2><p>${how}</p></section>
+<section class="faq"><h2 class="sec" id="faq">Questions people ask</h2>${faq}</section>
 </main>
+<aside class="g-side"><div class="toc"><div class="toc-k">On this page</div><a href="#quick">The short list</a>${toc}<a href="#compare">Side by side</a><a href="#how">How we picked</a><a href="#faq">Questions</a></div></aside>
+</div>
+${related}

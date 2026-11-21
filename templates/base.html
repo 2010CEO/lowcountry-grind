@@ -6,25 +6,36 @@
 <title>${page_title}</title>
 <meta name="description" content="${meta_desc}">
 <link rel="canonical" href="${canonical}">
+<meta name="theme-color" content="#1d1712">
+<meta property="og:site_name" content="${site_name}">
 <meta property="og:title" content="${page_title}">
 <meta property="og:description" content="${meta_desc}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="${canonical}">
+<meta property="og:image" content="${og_image}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;0,9..144,900;1,9..144,800&family=Inter:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${root}style.css">
 <script type="application/ld+json">${jsonld}</script>
 </head>
 <body>
-<div class="disc-bar">As an Amazon Associate I earn from qualifying purchases. <a href="${root}disclosure.html">How we make money</a></div>
+<div class="disc-bar">As an Amazon Associate we earn from qualifying purchases. <a href="${root}disclosure.html">How we make money</a></div>
 <header class="top"><div class="wrap nav">
-<a class="logo" href="${root}index.html">${logo_svg}<span>${site_name}<small>Coffee gear field notes</small></span></a>
-<nav>${nav}</nav>
+<a class="logo" href="${root}index.html" aria-label="${site_name} home">${logo_svg}<span class="wordmark">${site_name}</span></a>
+<input type="checkbox" id="navt" class="navt" aria-label="Menu"><label for="navt" class="burger" aria-hidden="true"><span></span></label>
+<nav class="menu">${nav}<a class="nav-cta" href="${root}index.html#finder">Brew finder</a></nav>
 </div></header>
 ${body}
-<footer><div class="wrap cols">
-<div><h4>${site_name}</h4><p>${tagline}</p><p>&copy; ${year} ${site_name}</p></div>
-<div><h4>Disclosure</h4><p>As an Amazon Associate I earn from qualifying purchases. Some links on this site are affiliate links: if you buy through them we may earn a commission at no extra cost to you. Prices and availability change; always check the current price on Amazon. <a href="${root}disclosure.html">Full disclosure</a>.</p></div>
-<div><h4>How these guides are made</h4><p>${ai_note}</p><p><a href="${root}about.html">About</a>${contact_html}</p></div>
+<footer class="foot"><div class="wrap">
+<div class="foot-top">
+<div class="foot-brand"><a class="logo" href="${root}index.html">${logo_svg}<span class="wordmark">${site_name}</span></a><p>${tagline}</p></div>
+<div><h4>Guides</h4>${foot_links}</div>
+<div><h4>The fine print</h4><a href="${root}about.html">About us</a><a href="${root}disclosure.html">How we make money</a>${contact_html}</div>
+</div>
+<p class="foot-note">As an Amazon Associate we earn from qualifying purchases. Some links on this site are affiliate links: if you buy through them we may earn a commission at no extra cost to you. Prices and availability change, so always check the current price on Amazon. ${ai_note}</p>
+<p class="foot-note">&copy; ${year} ${site_name} &middot; Hampton County, South Carolina</p>
 </div></footer>
 </body>
 </html>

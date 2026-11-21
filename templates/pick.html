@@ -1,10 +1,11 @@
-<article class="ticket" id="${asin}">
-<div class="stub"><span class="lbl">ORDER</span><span class="no">#${num}</span>${glyph}</div>
-<div class="tbody">
-<span class="award">${award}</span>
-<h3>${name}</h3><div class="brand">${brand}</div>
+<article class="pick" id="${asin}">
+<header class="pick-head">
+<span class="pick-num">${num}</span>
+<div class="pick-title"><span class="award">${award}</span><h3>${name}</h3><div class="brand">by ${brand}</div></div>
+<span class="pick-glyph">${glyph}</span>
+</header>
 <p class="verdict">${verdict}</p>
-<div class="specs">${specs}</div>
+<dl class="specs">${specs}</dl>
 <div class="pc"><div class="pro"><h4>Why it's here</h4><ul>${pros}</ul></div><div class="con"><h4>Skip it if</h4><ul>${cons}</ul></div></div>
-<div class="buy"><a class="cta" href="${link}" rel="sponsored nofollow noopener" target="_blank">Check current price on Amazon</a><small>Best for: ${best_for}</small></div>
-</div></article>
+<div class="buy"><a class="btn btn-amz" href="${link}" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon</a><span class="bestfor"><b>Best for</b> ${best_for}</span></div>
+</article>

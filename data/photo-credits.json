@@ -1,0 +1,79 @@
+{
+ "hero": {
+  "source": "stocksnap",
+  "license": "cc0",
+  "creator": "Habib Parvin",
+  "page": "https://stocksnap.io/photo/cafe-glasses-LWB0UANI5Y",
+  "title": "Cafe Glasses"
+ },
+ "hero-alt": {
+  "source": "stocksnap",
+  "license": "cc0",
+  "creator": "Blake Verdoorn",
+  "page": "https://stocksnap.io/photo/espresso-coffee-RKVW9F72PL",
+  "title": "Espresso Coffee"
+ },
+ "grinder": {
+  "source": "rawpixel",
+  "license": "cc0",
+  "creator": null,
+  "page": "https://www.rawpixel.com/image/5948122/free-public-domain-cc0-photo",
+  "title": null
+ },
+ "gift": {
+  "source": "rawpixel",
+  "license": "cc0",
+  "creator": null,
+  "page": "https://www.rawpixel.com/image/5915128/image-public-domain-person-coffee",
+  "title": "Free pouring milk onto coffee"
+ },
+ "pourover": {
+  "source": "rawpixel",
+  "license": "cc0",
+  "creator": null,
+  "page": "https://www.rawpixel.com/image/6042720/photo-image-public-domain-hand-wood",
+  "title": "Barista making drip coffee"
+ },
+ "espresso": {
+  "source": "rawpixel",
+  "license": "cc0",
+  "creator": null,
+  "page": "https://www.rawpixel.com/image/5915220/image-public-domain-hands-people",
+  "title": "Free espresso pouring machine photo"
+ },
+ "drip": {
+  "source": "rawpixel",
+  "license": "cc0",
+  "creator": null,
+  "page": "https://www.rawpixel.com/image/6029658/photo-image-public-domain-free",
+  "title": "Coffee cup, morning drink"
+ },
+ "coldbrew": {
+  "source": "rawpixel",
+  "license": "cc0",
+  "creator": null,
+  "page": "https://www.rawpixel.com/image/5927781/photo-image-public-domain-gold-wooden",
+  "title": "Free iced black coffee saucer"
+ },
+ "camp": {
+  "source": "stocksnap",
+  "license": "cc0",
+  "creator": "Alex Holt",
+  "page": "https://stocksnap.io/photo/coffee-mug-M4PI6CXDDP",
+  "title": "Coffee Mug"
+ },
+ "beans": {
+  "source": "rawpixel",
+  "license": "cc0",
+  "creator": null,
+  "page": "https://www.rawpixel.com/image/6039153/photo-image-background-public-domain-coffee",
+  "title": "Roasted coffee beans background"
+ },
+ "cafe": {
+  "source": "stocksnap",
+  "license": "cc0",
+  "creator": "Afta Putta Gunawan",
+  "page": "https://stocksnap.io/photo/restaurant-bar-THXU08ODDE",
+  "title": "Restaurant Bar"
+ }
+}

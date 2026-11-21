@@ -38,11 +38,21 @@ GLYPHS = {  # tiny inline SVGs, cream/crema on dark
  "gift": '<svg viewBox="0 0 40 40"><rect x="7" y="16" width="26" height="18" rx="2" fill="none" stroke="#f4e9d8" stroke-width="2.4"/><rect x="5" y="11" width="30" height="6" rx="1.5" fill="#f2a65a"/><path d="M20 11v23M20 11c-4-7-11-4-7 0M20 11c4-7 11-4 7 0" fill="none" stroke="#f4e9d8" stroke-width="2.2"/></svg>',
 }
 KIND_GLYPH = {"grinder":"grinder","pour-over":"pourover","kettle":"pourover","scale":"pourover","drip":"drip","espresso":"espresso","moka":"espresso","cold-brew":"coldbrew","press":"camp","percolator":"camp","storage":"gift"}
-LOGO = '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#e2762b"/><path d="M20 7c-7 5-7 21 0 26M20 7c7 5 7 21 0 26" fill="none" stroke="#1a110b" stroke-width="3"/><path d="M6 27c5-3 9 3 14 0s9 3 14 0" fill="none" stroke="#1a110b" stroke-width="2.2"/></svg>'
+PHOTO = {"grinder":("grinder","A hand coffee grinder beside a sack of roasted beans"),"gift":("gift","Latte art in a cup held in two hands"),
+ "pourover":("pourover","Water poured from a gooseneck kettle into a pour-over brewer"),"espresso":("espresso","Espresso pulling into a white cup"),
+ "drip":("drip","A mug of coffee with cream on a wooden table"),"coldbrew":("coldbrew","Iced coffee in a glass"),
+ "camp":("camp","A mug of coffee on a grill over a campfire")}
+NAV = [("grinder","Grinders"),("espresso","Espresso"),("pourover","Pour-over"),("drip","Drip"),("gift","Gifts")]
+FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" fill="#1d1712"/><path d="M20 8c-6.5 4.5-6.5 19.5 0 24M20 8c6.5 4.5 6.5 19.5 0 24" fill="none" stroke="#e9a15b" stroke-width="2.6"/><ellipse cx="20" cy="20" rx="9" ry="12.5" fill="none" stroke="#e9a15b" stroke-width="2.6"/></svg>'
+LOGO = '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#1d1712"/><ellipse cx="20" cy="20" rx="9" ry="12.5" fill="#b4532a"/><path d="M20 8c-5 4.5-1 9.5 0 12s-5 7.5 0 12" fill="none" stroke="#1d1712" stroke-width="2.4" stroke-linecap="round"/></svg>'
 
-def page(c, title, desc, body, root, canonical_path, jsonld, guides):
-    nav = "".join(f'<a href="{root}{g["slug"]}.html">{E(short(g["title"]))}</a>' for g in guides[:5])
-    return tpl("base.html").substitute(page_title=E(title), meta_desc=E(desc), canonical=E(c["base_url"].rstrip("/")+"/"+canonical_path),
+def page(c, title, desc, body, root, canonical_path, jsonld, guides, photo="hero-alt"):
+    byg = {g["glyph"]: g for g in guides}
+    nav = "".join(f'<a href="{root}{byg[k]["slug"]}.html">{lbl}</a>' for k, lbl in NAV if k in byg)
+    foot_links = "".join(f'<a href="{root}{g["slug"]}.html">{E(short(g["title"]))}</a>' for g in guides)
+    base = c["base_url"].rstrip("/")
+    return tpl("base.html").substitute(page_title=E(title), meta_desc=E(desc), canonical=E(base+"/"+canonical_path),
+        og_image=E(f"{base}/img/{photo}.webp"), foot_links=foot_links,
         root=root, jsonld=json.dumps(jsonld), logo_svg=LOGO, site_name=E(c["site_name"]), nav=nav, body=body,
         tagline=E(c["tagline"]), year=c["year"], ai_note=E(c["ai_note"]), contact_html=(f' &middot; <a href="mailto:{E(c["contact_email"])}">Contact</a>' if c.get("contact_email") else ""))
 
@@ -61,21 +71,36 @@ def guides_list(include_drafts=False):
     gs.sort(key=lambda g: order.index(g["slug"]) if g["slug"] in order else 99)
     return [g for g in gs if include_drafts or not g.get("draft")]
 
+def nice_date(iso):
+    try: d = datetime.date.fromisoformat(iso); return d.strftime("%B ") + str(d.day) + d.strftime(", %Y")
+    except Exception: return iso
+
+def card(g):
+    ph, alt = PHOTO.get(g["glyph"], PHOTO["gift"])
+    tag = {"grinder":"Grinders","gift":"Gift guide","pourover":"Pour-over","espresso":"Espresso","drip":"Drip coffee","coldbrew":"Cold brew","camp":"Outdoors"}.get(g["glyph"],"Guide")
+    return (f'<a class="gcard" href="{g["slug"]}.html"><div class="ph"><img src="img/{ph}-sm.webp" alt="{E(alt)}" loading="lazy" width="640" height="427"></div>'
+            f'<div class="gc-body"><span class="tag">{tag}</span><h3>{E(g["title"])}</h3><p>{E(g["dek"])}</p><span class="go">Read the guide &rarr;</span></div></a>')
+
 def li(items): return "".join(f"<li>{E(x)}</li>" for x in items)
 
 def build():
     c = cfg(); prods = live_products(); guides = guides_list()
     if OUT.exists(): shutil.rmtree(OUT)
-    OUT.mkdir(); shutil.copy(STATIC/"style.css", OUT/"style.css")
+    OUT.mkdir(); shutil.copy(STATIC/"style.css", OUT/"style.css"); shutil.copytree(STATIC/"img", OUT/"img")
+    (OUT/"favicon.svg").write_text(FAVICON)
+    dom = re.sub(r"^https?://", "", c["base_url"]).rstrip("/")
+    if "/" not in dom and not dom.endswith("github.io"): (OUT/"CNAME").write_text(dom+"\n")  # GitHub Pages custom domain
     dropped = []
     for g in guides:
-        picks_html, rows, n = [], [], 0
+        picks_html, rows, n, quick, toc = [], [], 0, [], []
         for pk in g["picks"]:
             p = prods.get(pk["asin"])
             if not p or p.get("status") == "dead":
                 dropped.append((g["slug"], pk["asin"])); continue
             n += 1
-            specs = "".join(f"<span><b>{E(k)}:</b> {E(v)}</span>" for k, v in p["specs"].items())
+            specs = "".join(f"<div><dt>{E(k)}</dt><dd>{E(v)}</dd></div>" for k, v in p["specs"].items())
+            quick.append(f'<li><span><span class="qa">{E(pk["award"])}</span><a class="qn" href="#{p["asin"]}">{E(p["name"])}</a></span><a class="qb" href="{E(amazon_link(p["asin"], c))}" rel="sponsored nofollow noopener" target="_blank">Check price &#8599;</a></li>')
+            toc.append(f'<a href="#{p["asin"]}">{E(p["name"])}</a>')
             picks_html.append(tpl("pick.html").substitute(asin=p["asin"], num=f"{n:02d}", glyph=GLYPHS[KIND_GLYPH.get(p["kind"],"gift")],
                 award=E(pk["award"]), name=E(p["name"]), brand=E(p["brand"]), verdict=E(pk["verdict"]), specs=specs,
                 pros=li(p["pros"]), cons=li(p["cons"]), link=E(amazon_link(p["asin"], c)), best_for=E(p["best_for"])))
@@ -83,27 +108,39 @@ def build():
             rows.append(f'<tr><td><a href="#{p["asin"]}">{E(p["name"])}</a></td><td>{E(pk["award"])}</td>{cells}<td><a href="{E(amazon_link(p["asin"], c))}" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>')
         thead = "<th>Product</th><th>Best for</th>" + "".join(f"<th>{E(x)}</th>" for x in g["table_columns"]) + "<th>Amazon</th>"
         faq = "".join(f"<details><summary>{E(f['q'])}</summary><p>{E(f['a'])}</p></details>" for f in g["faq"])
-        body = tpl("guide.html").substitute(title=E(g["title"]), dek=E(g["dek"]), updated=g["updated"], n_picks=n,
+        ph, alt = PHOTO.get(g["glyph"], PHOTO["gift"])
+        others = [o for o in guides if o["slug"] != g["slug"]][:3]
+        related = '<section class="related"><div class="wrap"><h2>Keep reading</h2><div class="cards">' + "".join(card(o) for o in others) + '</div></div></section>'
+        body = tpl("guide.html").substitute(title=E(g["title"]), dek=E(g["dek"]), updated=nice_date(g["updated"]), n_picks=n,
+            photo=ph, photo_alt=E(alt), quick="".join(quick), toc="".join(toc), related=related,
             intro="".join(f"<p>{E(x)}</p>" for x in g["intro"]), picks="".join(picks_html), thead=thead, tbody="".join(rows),
             bar_tip=E(g["bar_tip"]), how=E(g["how_we_picked"]), faq=faq)
         jsonld = {"@context":"https://schema.org","@type":"ItemList","name":g["title"],"itemListElement":[
             {"@type":"ListItem","position":i+1,"name":prods[pk["asin"]]["name"]} for i,pk in enumerate(x for x in g["picks"] if x["asin"] in prods and prods[x["asin"]].get("status")!="dead")]}
-        (OUT/f'{g["slug"]}.html').write_text(page(c, f'{g["title"]} ({c["year"]}) | {c["site_name"]}', g["dek"], body, "", f'{g["slug"]}.html', jsonld, guides), encoding="utf-8")
+        (OUT/f'{g["slug"]}.html').write_text(page(c, f'{g["title"]} ({c["year"]}) | {c["site_name"]}', g["dek"], body, "", f'{g["slug"]}.html', jsonld, guides, ph), encoding="utf-8")
     # home
-    cards = "".join(f'<a class="gcard" href="{g["slug"]}.html"><span class="gl">{GLYPHS.get(g["glyph"],GLYPHS["gift"])}</span><h3>{E(g["title"])}</h3><p>{E(g["dek"])}</p><span class="go">Read the guide &rarr;</span></a>' for g in guides)
+
     bykey = lambda k: next((g["slug"] for g in guides if g["glyph"] == k), guides[0]["slug"])
-    home = tpl("home.html").substitute(tagline=E(c["tagline"]), guide_cards=cards, slug_espresso=bykey("espresso"), slug_cold=bykey("coldbrew"),
+    latest = max(g["updated"] for g in guides)
+    home = tpl("home.html").substitute(tagline=E(c["tagline"]), featured_cards="".join(card(g) for g in guides[:3]), more_cards="".join(card(g) for g in guides[3:]),
+        n_guides=len(guides), updated=nice_date(latest), slug_espresso=bykey("espresso"), slug_cold=bykey("coldbrew"),
         slug_camp=bykey("camp"), slug_gift=bykey("gift"), slug_grinder=bykey("grinder"), slug_drip=bykey("drip"), slug_pour=bykey("pourover"),
         guide_names=json.dumps({g["slug"]: g["title"] for g in guides}))
     (OUT/"index.html").write_text(page(c, f'{c["site_name"]}: {c["tagline"]}', c["tagline"], home, "", "", {"@context":"https://schema.org","@type":"WebSite","name":c["site_name"],"url":c["base_url"]}, guides), encoding="utf-8")
     # static pages
-    disc = f'''<section class="ghead"><div class="wrap"><h1>How we make money</h1></div></section><main class="wrap block prose">
+    disc = f'''<section class="page-head"><div class="wrap"><div class="eyebrow">The fine print</div><h1>How we make money</h1></div></section><main class="wrap page-body"><div class="prose">
 <p><b>As an Amazon Associate I earn from qualifying purchases.</b> {E(c["site_name"])} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</p>
 <p><b>FTC disclosure:</b> Many links on this site are affiliate links. If you click one and buy something, we may earn a commission at no extra cost to you. Commissions never decide what we recommend, and we do not accept payment from brands for placement.</p>
 <p><b>Prices and ratings:</b> we don't publish prices, star ratings, or review counts because they change constantly. Always check the current price and details on Amazon before you buy.</p>
-<p><b>AI assistance:</b> {E(c["ai_note"])}</p></main>'''
+<p><b>AI assistance:</b> {E(c["ai_note"])}</p></div></main>'''
     (OUT/"disclosure.html").write_text(page(c, f'Disclosure | {c["site_name"]}', "How this site makes money.", disc, "", "disclosure.html", {}, guides), encoding="utf-8")
-    about = f'<section class="ghead"><div class="wrap"><h1>About {E(c["site_name"])}</h1></div></section><main class="wrap block prose"><p>{E(c["owner_blurb"])}</p><p>{E(c["ai_note"])}</p>' + (f'<p>Questions or a product you want us to look at? <a href="mailto:{E(c["contact_email"])}">{E(c["contact_email"])}</a></p>' if c.get("contact_email") else "") + '</main>'
+    try: cr = load(DATA/"photo-credits.json")
+    except Exception: cr = {}
+    credits = ", ".join(f'<a href="{E(v["page"])}" rel="nofollow noopener" target="_blank">{E(v.get("creator") or v["source"])}</a> ({E(v["source"])})' for v in cr.values() if v.get("page"))
+    about = (f'<section class="page-head"><div class="wrap"><div class="eyebrow">About</div><h1>About {E(c["site_name"])}</h1></div></section><main class="wrap page-body">'
+        f'<img class="about-img" src="img/beans.webp" alt="Roasted coffee beans"><div class="prose"><p>{E(c["owner_blurb"])}</p><h2>How these guides are made</h2><p>{E(c["ai_note"])}</p>'
+        + (f'<p>Questions or a product you want us to look at? <a href="mailto:{E(c["contact_email"])}">{E(c["contact_email"])}</a></p>' if c.get("contact_email") else "")
+        + (f'<h2>Photo credits</h2><p class="credits">Photos are public-domain (CC0) images from {credits}. They show coffee in general, not the specific products we recommend.</p>' if credits else "") + '</div></main>')
     (OUT/"about.html").write_text(page(c, f'About | {c["site_name"]}', c["tagline"], about, "", "about.html", {}, guides), encoding="utf-8")
     # sitemap + robots
     today = datetime.date.today().isoformat(); base = c["base_url"].rstrip("/")
