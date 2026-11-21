@@ -1,0 +1,58 @@
+{
+  "slug": "best-cold-brew-maker",
+  "title": "The Best Cold Brew Maker for Hot Southern Summers",
+  "dek": "When it's 95° with 90% humidity, nobody wants hot coffee. Make a week of cold brew for less than two café drinks.",
+  "keyword": "best cold brew coffee maker",
+  "glyph": "coldbrew",
+  "updated": "2026-11-20",
+  "intro": [
+    "Down here, iced coffee season runs from about March to November. Cold brew is the easiest way to keep up: coarse grounds, cold water, 12 to 18 hours in the fridge, strain. Done.",
+    "Any jar can make cold brew. What a dedicated maker buys you is easy straining, less mess, and a pitcher that fits in your fridge."
+  ],
+  "how_we_picked": "We picked makers that are easy to strain and clean and that fit in a real fridge. Specs are from the Amazon listings.",
+  "picks": [
+    {
+      "asin": "B00FFLY64U",
+      "award": "Best overall",
+      "verdict": "Fits the fridge door, airtight lid, shatter resistant. The one we'd buy first."
+    },
+    {
+      "asin": "B00JVSVM36",
+      "award": "Smoothest concentrate",
+      "verdict": "Even water distribution and a fine filter make a clean, low-grit concentrate."
+    },
+    {
+      "asin": "B07VJJJ764",
+      "award": "Best for big batches",
+      "verdict": "Half a gallon in a glass mason jar. Great for porches, crowds, and tailgates."
+    },
+    {
+      "asin": "B00I7JKAQ0",
+      "award": "Best for small kitchens",
+      "verdict": "Slim glass pitcher. Grounds in, water in, wait."
+    }
+  ],
+  "table_columns": [
+    "Capacity",
+    "Material",
+    "Output",
+    "Filter",
+    "Lid"
+  ],
+  "bar_tip": "Use a coarse grind (like rough sea salt) and about 1 cup of coffee to 4 cups of water for concentrate. Cut it 1:1 with water or milk over ice.",
+  "faq": [
+    {
+      "q": "How long does cold brew last?",
+      "a": "Most people keep it 1 to 2 weeks in the fridge; it tastes best in the first week."
+    },
+    {
+      "q": "Cold brew vs iced coffee?",
+      "a": "Iced coffee is hot coffee chilled. Cold brew never sees heat, so it's smoother and less acidic."
+    },
+    {
+      "q": "What beans work best?",
+      "a": "Medium to dark roasts. Chocolatey, nutty coffees shine as cold brew."
+    }
+  ],
+  "draft": false
+}

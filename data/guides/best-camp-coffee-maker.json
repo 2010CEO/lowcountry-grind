@@ -1,0 +1,69 @@
+{
+  "slug": "best-camp-coffee-maker",
+  "title": "The Best Camp, Boat & Deer Stand Coffee Makers",
+  "dek": "Real coffee where there's no outlet: hunting camp, the boat landing, the tailgate.",
+  "keyword": "best camping coffee maker",
+  "glyph": "camp",
+  "updated": "2026-11-20",
+  "intro": [
+    "Lowcountry mornings start early: sunrise on the river, a cold deer stand in November, a tailgate before kickoff. Gas-station coffee is fine, but you can do a lot better with gear that packs small and doesn't need power.",
+    "These are the picks that hold up to being thrown in a truck bed."
+  ],
+  "how_we_picked": "We favored rugged, no-power gear that survives truck beds and boat decks. Specs are from the Amazon listings.",
+  "picks": [
+    {
+      "asin": "B07YVL8SF3",
+      "award": "Best for one person on the go",
+      "verdict": "The whole kit packs inside its own mug. Truck, boat, deer stand, hotel."
+    },
+    {
+      "asin": "B0047BIWSK",
+      "award": "Best all-around brewer",
+      "verdict": "Nearly unbreakable and very forgiving. Two minutes, great cup."
+    },
+    {
+      "asin": "B07QKF1V3M",
+      "award": "Best for a whole camp",
+      "verdict": "Stainless, campfire-proof, six cups. Classic hunting camp coffee."
+    },
+    {
+      "asin": "B01EOOHEAQ",
+      "award": "Classic percolator pick",
+      "verdict": "Same idea, classic shape. Watch the brew time so it doesn't turn bitter."
+    },
+    {
+      "asin": "B00004RFRU",
+      "award": "Best strong coffee on a camp stove",
+      "verdict": "Moka pot coffee is rich and bold, and the pot weighs next to nothing."
+    },
+    {
+      "asin": "B0CNDBVVDG",
+      "award": "Grind it fresh at camp",
+      "verdict": "A hand grinder means fresh coffee with no outlet. Quiet enough for a dark campsite."
+    }
+  ],
+  "table_columns": [
+    "Brews",
+    "Capacity",
+    "Material",
+    "Heat",
+    "Power",
+    "Includes"
+  ],
+  "bar_tip": "Pre-weigh your coffee at home into small zip bags, one per brew. In the dark at 5 a.m. you'll be glad you did.",
+  "faq": [
+    {
+      "q": "Percolator or AeroPress?",
+      "a": "Percolator for a crowd around a fire; AeroPress for one or two great cups with minimal weight."
+    },
+    {
+      "q": "Can I use pre-ground coffee?",
+      "a": "Yes. Fresh-ground is better, but pre-ground in a sealed bag is fine for a weekend."
+    },
+    {
+      "q": "What about cold mornings?",
+      "a": "Preheat your mug with hot water first. Coffee loses heat fast in a cold stand."
+    }
+  ],
+  "draft": false
+}

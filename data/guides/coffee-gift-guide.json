@@ -1,0 +1,73 @@
+{
+  "slug": "coffee-gift-guide",
+  "title": "Coffee Gift Guide: Gifts Coffee People Actually Use",
+  "dek": "Skip the novelty mug. These are the upgrades coffee people quietly want, at every budget.",
+  "keyword": "coffee gifts for coffee lovers",
+  "glyph": "gift",
+  "updated": "2026-11-20",
+  "intro": [
+    "The coffee gifts that stick around are tools that make the daily cup better, not gadgets that end up in a drawer.",
+    "Here's what we'd want to unwrap, sorted roughly from stocking stuffer to big-ticket. Check current prices on Amazon, since holiday pricing moves around a lot."
+  ],
+  "how_we_picked": "We picked tools that improve a daily habit across a range of budgets. Specs are from the Amazon listings.",
+  "picks": [
+    {
+      "asin": "B08V1CSDJK",
+      "award": "Best small gift",
+      "verdict": "A coffee scale with a timer. Every serious home brewer wants one and few buy it for themselves."
+    },
+    {
+      "asin": "B07YVL8SF3",
+      "award": "Best for the outdoorsy one",
+      "verdict": "AeroPress Go: great coffee anywhere, packs in its own mug."
+    },
+    {
+      "asin": "B0CYLZ97S3",
+      "award": "Best 'start pour-over' gift",
+      "verdict": "Dripper plus 100 filters, ready to brew."
+    },
+    {
+      "asin": "B00FFLY64U",
+      "award": "Best for iced coffee people",
+      "verdict": "Cold brew maker that lives in the fridge door."
+    },
+    {
+      "asin": "B07PY4WXXV",
+      "award": "Best for the bean snob",
+      "verdict": "A vacuum canister to keep their good beans fresh longer."
+    },
+    {
+      "asin": "B077JBQZPX",
+      "award": "Best splurge",
+      "verdict": "The kettle every pour-over person has on their wish list."
+    },
+    {
+      "asin": "B007F183LK",
+      "award": "Best gift that changes their coffee",
+      "verdict": "A real burr grinder. The single biggest upgrade most people haven't made."
+    }
+  ],
+  "table_columns": [
+    "Type",
+    "Capacity",
+    "Accuracy",
+    "Includes",
+    "Temp control"
+  ],
+  "bar_tip": "Pair any of these with a bag of fresh beans from a local roaster or coffeehouse. Gear plus good coffee makes a gift that actually gets used the next morning.",
+  "faq": [
+    {
+      "q": "What's the best coffee gift under $50?",
+      "a": "A scale, an AeroPress, a V60 kit, or a cold brew maker. Check current prices; they move during the holidays."
+    },
+    {
+      "q": "Is a grinder a good gift?",
+      "a": "It's the best upgrade for most people, but ask quietly first, since some people already own one."
+    },
+    {
+      "q": "Will Amazon deliver by Christmas?",
+      "a": "Check the delivery date on the product page before you order; it changes by item and seller."
+    }
+  ],
+  "draft": false
+}

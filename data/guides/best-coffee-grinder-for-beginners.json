@@ -1,0 +1,62 @@
+{
+  "slug": "best-coffee-grinder-for-beginners",
+  "title": "The Best Coffee Grinder for Beginners",
+  "dek": "If you only upgrade one thing, upgrade this. Here's which grinder to buy for how you actually brew.",
+  "keyword": "best coffee grinder for beginners",
+  "glyph": "grinder",
+  "updated": "2026-11-20",
+  "intro": [
+    "Ask anybody who works a coffee bar what to buy first and you'll hear the same answer: a burr grinder. Not a fancier machine. Not pricier beans. A grinder. Pre-ground coffee goes stale fast, and blade grinders chop beans into dust and boulders that brew unevenly, which is where a lot of 'bitter and sour at the same time' coffee comes from.",
+    "A burr grinder crushes beans to a consistent size. That one change makes cheap beans taste better and good beans taste like the bag said they would."
+  ],
+  "how_we_picked": "We focused on grinders a beginner can use on day one, that hold up to daily use, and that come from brands with parts and support. Details come from each product's Amazon listing; check the listing for the current version and price.",
+  "picks": [
+    {
+      "asin": "B007F183LK",
+      "award": "Best overall for drip & pour-over",
+      "verdict": "The one we'd hand a friend. Simple, consistent at filter grinds, and repairable for years."
+    },
+    {
+      "asin": "B07CSKGLMM",
+      "award": "Best for busy mornings",
+      "verdict": "Load the big hopper, set the timer, walk away. Great for households brewing a pot a day."
+    },
+    {
+      "asin": "B0BV96VPSR",
+      "award": "Best if you want espresso too",
+      "verdict": "One grinder that covers espresso through cold brew. Read recent reviews first; owner ratings are more mixed."
+    },
+    {
+      "asin": "B00018RRRK",
+      "award": "Best on a tight budget",
+      "verdict": "The cheapest real step up from a blade grinder. Fine for a drip machine; not for espresso."
+    },
+    {
+      "asin": "B0CNDBVVDG",
+      "award": "Best no-outlet option",
+      "verdict": "A hand grinder: quiet, portable, and better grind quality than you'd expect for the money."
+    }
+  ],
+  "table_columns": [
+    "Type",
+    "Burrs",
+    "Settings",
+    "Best brew"
+  ],
+  "bar_tip": "Grind right before you brew. Ground coffee loses aroma within minutes. Whole beans hold for a few weeks. That gap is the whole reason a grinder matters.",
+  "faq": [
+    {
+      "q": "Do I really need a burr grinder?",
+      "a": "If you're happy with your coffee, no. If it's ever bitter, sour, or flat, a burr grinder is the fix that does the most per dollar."
+    },
+    {
+      "q": "Can one grinder do espresso and drip?",
+      "a": "Some can (the Fellow Opus is built for it), but espresso needs very fine, very small adjustments. Most beginner grinders are tuned for filter coffee."
+    },
+    {
+      "q": "Hand grinder or electric?",
+      "a": "Hand grinders are quiet and often grind more evenly per dollar, but cranking for a full 10-cup pot gets old. Electric if you brew for a family."
+    }
+  ],
+  "draft": false
+}

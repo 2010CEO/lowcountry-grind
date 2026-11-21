@@ -1,0 +1,21 @@
+{
+  "site_name": "Lowcountry Grind",
+  "tagline": "Home coffee gear, picked with a coffeehouse eye.",
+  "base_url": "https://example.com",
+  "affiliate_tag": "khalmessiah-20",
+  "amazon_domain": "www.amazon.com",
+  "owner_name": "TJ",
+  "owner_blurb": "Lowcountry Grind is run out of Hampton County, South Carolina, by the owner of a small-town coffeehouse. We spend our days behind an espresso bar, so these guides lean on what actually matters when you make coffee every single morning: grind quality, repeatability, cleanup, and whether the thing survives a humid Lowcountry kitchen.",
+  "ai_note": "Research and first drafts on this site are AI-assisted, then reviewed and edited by a human. We have not hands-on tested every product listed; when a note comes from our own bar or kitchen we say so. Product details come from the manufacturers' Amazon listings, which can change.",
+  "contact_email": "hello@example.com",
+  "year": 2026,
+  "guide_order": [
+    "best-coffee-grinder-for-beginners",
+    "coffee-gift-guide",
+    "best-pour-over-coffee-setup",
+    "best-espresso-machine-for-beginners",
+    "best-drip-coffee-maker-for-families",
+    "best-cold-brew-maker",
+    "best-camp-coffee-maker"
+  ]
+}

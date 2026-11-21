@@ -1,0 +1,677 @@
+[
+  {
+    "asin": "B007F183LK",
+    "name": "Baratza Encore",
+    "brand": "Baratza",
+    "kind": "grinder",
+    "specs": {
+      "Type": "Electric conical burr",
+      "Burrs": "40mm conical steel",
+      "Best brew": "Drip, pour-over, French press"
+    },
+    "best_for": "First real grinder for drip and pour-over",
+    "pros": [
+      "The default beginner burr grinder for a reason: simple, consistent for filter coffee",
+      "Baratza is known for selling replacement parts, so it's repairable"
+    ],
+    "cons": [
+      "Not built for dialing in fine espresso"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Baratza Encore Coffee Grinder ZCG485BLK, Black | Beginner-friendly grinder with powerful motor and 40mm conical steel burrs for consistent, brew-ready performance : Home & Kitchen",
+    "last_checked": "2026-11-20T22:05:48",
+    "last_http": 200
+  },
+  {
+    "asin": "B07CSKGLMM",
+    "name": "OXO Brew Conical Burr Grinder",
+    "brand": "OXO",
+    "kind": "grinder",
+    "specs": {
+      "Type": "Electric conical burr",
+      "Burrs": "Stainless conical",
+      "Settings": "Listing says 43 (15 + micro steps)",
+      "Hopper": "12 oz"
+    },
+    "best_for": "Set-it-and-forget-it mornings",
+    "pros": [
+      "One-touch start timer means you can walk away",
+      "Big hopper for households that brew a lot"
+    ],
+    "cons": [
+      "Less fine-tuning room than enthusiast grinders"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: OXO Brew Conical Burr Electric Coffee Bean Grinder - 12 Oz, Silver | Stainless Steel Burrs, One-Touch Automatic, 43 Grind Settings For Drip Coffee, French Press, Cold Brew : Home & Kitchen",
+    "last_checked": "2026-11-20T22:05:53",
+    "last_http": 200
+  },
+  {
+    "asin": "B0BV96VPSR",
+    "name": "Fellow Opus",
+    "brand": "Fellow",
+    "kind": "grinder",
+    "specs": {
+      "Type": "Electric conical burr",
+      "Burrs": "40mm stainless conical",
+      "Settings": "41+",
+      "Best brew": "Espresso through cold brew"
+    },
+    "best_for": "One grinder that does espresso and filter",
+    "pros": [
+      "Covers espresso through cold brew in one box",
+      "Anti-static design and a spouted catch cut down on mess"
+    ],
+    "cons": [
+      "Owner ratings on Amazon are more mixed than the others here; read recent reviews before buying"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Fellow Opus Conical Burr Coffee Grinder, 41 Settings, Anti-Static, Black | Electric Espresso Grinder for Home Use, 40mm Stainless Steel Burrs, for Pour-Over, French Press, Drip & Cold Brew",
+    "last_checked": "2026-11-20T22:05:57",
+    "last_http": 200
+  },
+  {
+    "asin": "B00018RRRK",
+    "name": "Cuisinart Supreme Grind DBM-8",
+    "brand": "Cuisinart",
+    "kind": "grinder",
+    "specs": {
+      "Type": "Electric burr (flat)",
+      "Settings": "18",
+      "Best brew": "Drip"
+    },
+    "best_for": "Tight budget, upgrading from a blade grinder",
+    "pros": [
+      "Cheapest way to stop using a blade grinder",
+      "Big, easy grind selector"
+    ],
+    "cons": [
+      "Noisy and messier than pricier burr grinders",
+      "Not consistent enough for serious pour-over or espresso"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Cuisinart Supreme Grind Electric Burr Coffee Grinder, 18 Settings, DBM-8P1 | Grind settings for drip, espresso and French press, 4–18-cup selector, 8 oz. bean hopper and automatic shutoff ",
+    "last_checked": "2026-11-20T22:06:02",
+    "last_http": 200
+  },
+  {
+    "asin": "B0CNDBVVDG",
+    "name": "TIMEMORE Chestnut C3",
+    "brand": "TIMEMORE",
+    "kind": "grinder",
+    "specs": {
+      "Type": "Manual (hand) conical burr",
+      "Burrs": "S2C stainless conical",
+      "Power": "None needed"
+    },
+    "best_for": "Quiet mornings, travel, camp",
+    "pros": [
+      "No outlet needed: camp, boat, deer stand",
+      "Hand grinders punch above their price on grind quality"
+    ],
+    "cons": [
+      "You're cranking by hand: fine for 1-2 cups, a workout for a full pot"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: TIMEMORE Chestnut C3 Manual Coffee Grinder, S2C Stainless Steel Conical Burr, Hand Coffee Grinder for Espresso and French Press, Burr Coffee Grinder for Home Use - Matte Black : Home & Kit",
+    "last_checked": "2026-11-20T22:06:05",
+    "last_http": 200
+  },
+  {
+    "asin": "B007VACS0W",
+    "name": "Hario V60 Ceramic Dripper (02)",
+    "brand": "Hario",
+    "kind": "pour-over",
+    "specs": {
+      "Material": "Ceramic",
+      "Size": "02 (1-4 cups)",
+      "Filters": "V60 02 cone"
+    },
+    "best_for": "Learning pour-over the way cafés do it",
+    "pros": [
+      "The cone most coffee bars use for pour-over",
+      "Ceramic holds heat; nothing to break down"
+    ],
+    "cons": [
+      "Unforgiving: needs a gooseneck kettle and a decent grinder to shine"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: HARIO V60 Ceramic Coffee Dripper, Size 02, White | Handmade Porcelain Coffee Maker with Conical Shape and Spiral Ridges for Heavier Flavor : Home & Kitchen",
+    "last_checked": "2026-11-20T22:06:11",
+    "last_http": 200
+  },
+  {
+    "asin": "B0CYLZ97S3",
+    "name": "Hario V60 Ceramic Dripper + 100 Filters",
+    "brand": "Hario",
+    "kind": "pour-over",
+    "specs": {
+      "Material": "Ceramic",
+      "Size": "02",
+      "Includes": "100 V60 paper filters"
+    },
+    "best_for": "Gifting or starting from zero",
+    "pros": [
+      "Dripper and filters in one order, so you can brew the day it shows up"
+    ],
+    "cons": [
+      "Same learning curve as the plain V60"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Hario V60 Ceramic Coffee Dripper Pour Over Cone Coffee Maker Size 02, White & V60 Paper Coffee Filters Single Use Pour Over Cone Filters Size 02 White, Boxed, 100 count: Home & Kitchen",
+    "last_checked": "2026-11-20T22:06:15",
+    "last_http": 200
+  },
+  {
+    "asin": "B0000YWF5E",
+    "name": "Chemex Classic 6-Cup",
+    "brand": "Chemex",
+    "kind": "pour-over",
+    "specs": {
+      "Material": "Glass",
+      "Size": "6-cup",
+      "Filters": "Chemex bonded filters"
+    },
+    "best_for": "Brewing for two or more, pretty on the counter",
+    "pros": [
+      "Brews and serves in the same vessel",
+      "Thick filters make a very clean, tea-like cup"
+    ],
+    "cons": [
+      "Needs Chemex-specific filters",
+      "Glass: handle with care"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Chemex Pour-Over Glass Coffeemaker - Classic Series - 6-Cup - Exclusive Packaging : Home & Kitchen",
+    "last_checked": "2026-11-20T22:06:20",
+    "last_http": 200
+  },
+  {
+    "asin": "B077JBQZPX",
+    "name": "Fellow Stagg EKG",
+    "brand": "Fellow",
+    "kind": "kettle",
+    "specs": {
+      "Type": "Electric gooseneck",
+      "Temp control": "Yes, variable"
+    },
+    "best_for": "The 'buy once' pour-over kettle",
+    "pros": [
+      "Precise pour and temperature control",
+      "Looks great on the counter"
+    ],
+    "cons": [
+      "Premium price for a kettle"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Fellow Stagg EKG Electric Gooseneck Kettle - Pour-Over Coffee and Tea Kettle - Stainless Steel Water Boiler - Quick Heating for Boiling Water - Matte Black: Home & Kitchen",
+    "last_checked": "2026-11-20T22:06:23",
+    "last_http": 200
+  },
+  {
+    "asin": "B07T1CH2HH",
+    "name": "COSORI Gooseneck Kettle",
+    "brand": "COSORI",
+    "kind": "kettle",
+    "specs": {
+      "Type": "Electric gooseneck",
+      "Capacity": "0.8L",
+      "Temp control": "5 presets, 60-min hold"
+    },
+    "best_for": "Best-value gooseneck",
+    "pros": [
+      "Temperature presets and keep-warm at a fraction of premium prices"
+    ],
+    "cons": [
+      "0.8L is small if you brew a full Chemex"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Cosori Gooseneck Electric Kettle with Temperature Control, 0.8L, Black | No Plastic Contact with Water, 5 Presets, 60-Min Keep Warm, Pour Over Coffee & Tea, Stainless Steel Interior, 1200W",
+    "last_checked": "2026-11-20T22:06:27",
+    "last_http": 200
+  },
+  {
+    "asin": "B005YR0F40",
+    "name": "Bonavita 1L Gooseneck",
+    "brand": "Bonavita",
+    "kind": "kettle",
+    "specs": {
+      "Type": "Electric gooseneck",
+      "Capacity": "1L",
+      "Temp control": "Variable, presets"
+    },
+    "best_for": "Middle ground: bigger capacity, still affordable",
+    "pros": [
+      "1L capacity handles bigger brews",
+      "Long-running, coffee-focused brand"
+    ],
+    "cons": [
+      "Plainer design than the Stagg"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Bonavita 1L Digital Variable Temperature Gooseneck Electric Kettle for Coffee Brew and Tea Precise Pour Control, 6 Preset Temps, Café or Home Use, 1200 Watt, LED Panel, Stainless Steel: Ho",
+    "last_checked": "2026-11-20T22:06:31",
+    "last_http": 200
+  },
+  {
+    "asin": "B08V1CSDJK",
+    "name": "TIMEMORE Black Mirror Basic",
+    "brand": "TIMEMORE",
+    "kind": "scale",
+    "specs": {
+      "Accuracy": "0.1g",
+      "Timer": "Built in",
+      "Power": "Rechargeable (USB-C)"
+    },
+    "best_for": "The single cheapest upgrade to your coffee",
+    "pros": [
+      "0.1g scale plus timer is exactly what pour-over and espresso need",
+      "Rechargeable, no coin batteries"
+    ],
+    "cons": [
+      "Not waterproof; keep it out of the sink"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: TIMEMORE Black Mirror Basic Coffee Scale for Pour Over and Espresso, Build-in Timer, 0.1g Accuracy, Rechargeable Battery with 15H Life, Type-C Port(Black): Home & Kitchen",
+    "last_checked": "2026-11-20T22:06:36",
+    "last_http": 200
+  },
+  {
+    "asin": "B093DXS54M",
+    "name": "Moccamaster KBGV Select",
+    "brand": "Technivorm Moccamaster",
+    "kind": "drip",
+    "specs": {
+      "Capacity": "40 oz / 10 cups",
+      "Carafe": "Glass + hot plate",
+      "Warranty": "5-year (per listing)",
+      "Half-batch": "Yes"
+    },
+    "best_for": "Coffee people who want a machine",
+    "pros": [
+      "Built to hit proper brew temperature without fuss",
+      "Half-batch switch, long warranty, made to last"
+    ],
+    "cons": [
+      "Expensive for a drip machine",
+      "No programmable timer"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Moccamaster 53948 KBGV Select 10-Cup Coffee Maker, Matte Black, 40 ounce, 1.25l: Home & Kitchen",
+    "last_checked": "2026-11-20T22:06:40",
+    "last_http": 200
+  },
+  {
+    "asin": "B07H9G93WK",
+    "name": "OXO Brew 8-Cup",
+    "brand": "OXO",
+    "kind": "drip",
+    "specs": {
+      "Capacity": "8 cups",
+      "Carafe": "Thermal (stainless)",
+      "Single-serve": "Yes",
+      "Certification": "SCA Certified (per listing)"
+    },
+    "best_for": "Busy households that want great drip on a timer",
+    "pros": [
+      "Thermal carafe keeps coffee hot without cooking it",
+      "SCA-certified brewing temperature and time"
+    ],
+    "cons": [
+      "Thermal carafes need a regular scrub"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: OXO Brew 8-Cup Coffee Maker - Single-Serve, Thermal Carafe, Stainless Steel | SCA Certified Home Brewer, Precise Temperature Control, Rainmaker Shower Head, Brew any amount of coffee from ",
+    "last_checked": "2026-11-20T22:06:44",
+    "last_http": 200
+  },
+  {
+    "asin": "B08F2H7SRX",
+    "name": "Cuisinart DCC-3200 PerfecTemp",
+    "brand": "Cuisinart",
+    "kind": "drip",
+    "specs": {
+      "Capacity": "14 cups",
+      "Carafe": "Glass + warming plate",
+      "Programmable": "Yes",
+      "Strength control": "Yes"
+    },
+    "best_for": "Big families, church mornings, budget",
+    "pros": [
+      "14 cups and a timer for the price of a nice dinner out",
+      "Strength and 1-4 cup settings"
+    ],
+    "cons": [
+      "Warming plate will cook coffee if it sits for hours; pour it into a thermos"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Cuisinart Coffee Maker, Programmable, 14-Cup Glass Carafe, DCC-3200 | PerfecTemp hotter brewing with adjustable warming plate, 14-cup glass carafe, stainless steel: Home & Kitchen",
+    "last_checked": "2026-11-20T22:06:48",
+    "last_http": 200
+  },
+  {
+    "asin": "B07JVD78TT",
+    "name": "Breville Bambino Plus",
+    "brand": "Breville",
+    "kind": "espresso",
+    "specs": {
+      "Portafilter": "54mm",
+      "Heat-up": "About 3 seconds (ThermoJet, per listing)",
+      "Milk": "Automatic steam wand"
+    },
+    "best_for": "Lattes at home without a learning cliff",
+    "pros": [
+      "Automatic steam wand makes real microfoam with no skill",
+      "Tiny footprint, fast heat-up"
+    ],
+    "cons": [
+      "No built-in grinder: budget for a good one",
+      "Small water tank"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Breville BES500BSS Bambino Plus Espresso Machine, Brushed Stainless Steel | Make café-quality espresso, lattes and cappuccinos at home with this compact, semi-automatic coffee maker for ho",
+    "last_checked": "2026-11-20T22:06:51",
+    "last_http": 200
+  },
+  {
+    "asin": "B00CH9QWOU",
+    "name": "Breville Barista Express",
+    "brand": "Breville",
+    "kind": "espresso",
+    "specs": {
+      "Grinder": "Built in",
+      "Milk": "Manual steam wand",
+      "Type": "Semi-automatic"
+    },
+    "best_for": "All-in-one espresso setup",
+    "pros": [
+      "Grinder included, so one purchase gets you started",
+      "Huge user community and tutorials"
+    ],
+    "cons": [
+      "Built-in grinder limits you if you get serious later"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Breville BES870XL Barista Express Espresso Machine, Brushed Stainless Steel | Craft café-quality espresso shots, lattes and cappuccinos at home with this manual coffee maker with built-in ",
+    "last_checked": "2026-11-20T22:06:55",
+    "last_http": 200
+  },
+  {
+    "asin": "B08C96BG9H",
+    "name": "De'Longhi Stilosa",
+    "brand": "De'Longhi",
+    "kind": "espresso",
+    "specs": {
+      "Pump": "15 bar",
+      "Milk": "Manual steam wand",
+      "Type": "Manual / semi-auto"
+    },
+    "best_for": "Trying espresso on a budget",
+    "pros": [
+      "Lowest-cost real pump machine in this guide"
+    ],
+    "cons": [
+      "Needs a fine grinder or pre-ground espresso",
+      "Less temperature stability than the Breville machines"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: De'Longhi Stilosa Compact Manual Espresso Machine, Manual Milk Frother | #1 Worldwide Espresso Machine Maker, 15 Bar Pump Pressure, Stainless Steel Boiler, Frother, Compact Design : Home &",
+    "last_checked": "2026-11-20T22:07:00",
+    "last_http": 200
+  },
+  {
+    "asin": "B00004RFRU",
+    "name": "Bialetti Moka Express 6-Cup",
+    "brand": "Bialetti",
+    "kind": "moka",
+    "specs": {
+      "Material": "Aluminum",
+      "Size": "6 espresso cups",
+      "Power": "Stovetop (gas/electric; induction with adapter)"
+    },
+    "best_for": "Strong 'espresso-style' coffee with no machine",
+    "pros": [
+      "Made in Italy, iconic since 1933, nothing to break",
+      "Works on a camp stove"
+    ],
+    "cons": [
+      "Not true espresso pressure",
+      "Hand wash only, no soap (per Bialetti)"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Bialetti Moka Express Iconic Italian Stovetop Espresso Maker (Natural Silver, 6 Cups): Espresso Machines: Home & Kitchen",
+    "last_checked": "2026-11-20T22:07:03",
+    "last_http": 200
+  },
+  {
+    "asin": "B00FFLY64U",
+    "name": "Takeya Cold Brew Maker 1qt",
+    "brand": "Takeya",
+    "kind": "cold-brew",
+    "specs": {
+      "Capacity": "1 quart",
+      "Material": "BPA-free Tritan",
+      "Lid": "Airtight"
+    },
+    "best_for": "Fridge-door cold brew every week",
+    "pros": [
+      "Fits in a fridge door; airtight lid",
+      "Shatter resistant, good around kids"
+    ],
+    "cons": [
+      "1 quart goes fast in a big house"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Takeya Premium Quality Cold Brew Coffee Maker, 1 Quart, Black | Patented, Airtight, Durable, Shatter Resistant, BPA-Free, Dishwasher Safe : Home & Kitchen",
+    "last_checked": "2026-11-20T22:07:08",
+    "last_http": 200
+  },
+  {
+    "asin": "B00JVSVM36",
+    "name": "OXO Good Grips Cold Brew",
+    "brand": "OXO",
+    "kind": "cold-brew",
+    "specs": {
+      "Capacity": "32 oz",
+      "Output": "Concentrate",
+      "Filter": "Fine mesh + paper"
+    },
+    "best_for": "Smoothest, cleanest concentrate",
+    "pros": [
+      "Rainmaker top spreads water evenly",
+      "Concentrate lasts and stretches"
+    ],
+    "cons": [
+      "More parts to wash and store"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: OXO Good Grips Cold Brew Coffee Maker, 32 oz, Iced Coffee Maker with Carafe | Low-Acid Concentrate for 14 Drinks, Fine Filter, Smooth Hot or Iced Coffee, Cafe-Quality, Coffee at Home, At H",
+    "last_checked": "2026-11-20T22:07:12",
+    "last_http": 200
+  },
+  {
+    "asin": "B07VJJJ764",
+    "name": "County Line Kitchen 64oz Cold Brew",
+    "brand": "County Line Kitchen",
+    "kind": "cold-brew",
+    "specs": {
+      "Capacity": "64 oz / 2 quart",
+      "Material": "Glass mason jar",
+      "Filter": "Stainless mesh"
+    },
+    "best_for": "Big batches for porches and crowds",
+    "pros": [
+      "Half-gallon batches",
+      "Glass jar, nothing fancy to break"
+    ],
+    "cons": [
+      "Heavy and tall for some fridges"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: County Line Kitchen 64oz Cold Brew Coffee Maker with Leak Proof Lid - Gray | Glass Cold Brew Coffee Maker - Wide Mouth Mason Jar, Stainless Steel Filter & Leak-Proof Lid (64 oz) : Home & K",
+    "last_checked": "2026-11-20T22:07:16",
+    "last_http": 200
+  },
+  {
+    "asin": "B00I7JKAQ0",
+    "name": "Hario Mizudashi 1000ml",
+    "brand": "Hario",
+    "kind": "cold-brew",
+    "specs": {
+      "Capacity": "1000ml",
+      "Material": "Glass pitcher",
+      "Filter": "Fine mesh"
+    },
+    "best_for": "Small kitchens, pretty pitcher",
+    "pros": [
+      "Slim pitcher fits anywhere",
+      "Very simple: grounds in, water in, wait"
+    ],
+    "cons": [
+      "Amazon lists it under Grocery, which usually pays a lower commission"
+    ],
+    "amazon_category_hint": "Grocery",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Hario \"Mizudashi\" Cold Brew Coffee Maker, 1000ml, Brown : Grocery & Gourmet Food",
+    "last_checked": "2026-11-20T22:07:21",
+    "last_http": 200
+  },
+  {
+    "asin": "B0047BIWSK",
+    "name": "AeroPress Original",
+    "brand": "AeroPress",
+    "kind": "press",
+    "specs": {
+      "Brews": "Espresso-style, American, cold brew",
+      "Time": "About 2 minutes",
+      "Material": "BPA-free plastic"
+    },
+    "best_for": "The most versatile cheap brewer there is",
+    "pros": [
+      "Nearly unbreakable, fast cleanup",
+      "Forgiving: hard to make a bad cup"
+    ],
+    "cons": [
+      "One or two cups at a time"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: AeroPress Original Coffee Press, French Press, Pour-Over & Espresso Style | All-in-One Manual Coffee Maker, 2-Minute Brew, Less Bitterness, More Flavor, Portable, Travel & Camping : Home &",
+    "last_checked": "2026-11-20T22:07:27",
+    "last_http": 200
+  },
+  {
+    "asin": "B07YVL8SF3",
+    "name": "AeroPress Go",
+    "brand": "AeroPress",
+    "kind": "press",
+    "specs": {
+      "Brews": "Espresso-style, American, cold brew",
+      "Includes": "Travel mug that packs the whole kit"
+    },
+    "best_for": "Truck, boat, deer stand, hotel",
+    "pros": [
+      "Whole kit nests inside its own mug",
+      "Same great AeroPress cup on the road"
+    ],
+    "cons": [
+      "Slightly smaller brew than the Original"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: AeroPress Go Extra Small Portable Coffee Maker Kit | Travel, Hiking & Camping, All-in-One French Press, Pour-Over & Espresso Style Manual Brewer, 2 Min Brew: Home & Kitchen",
+    "last_checked": "2026-11-20T22:07:30",
+    "last_http": 200
+  },
+  {
+    "asin": "B07QKF1V3M",
+    "name": "Stanley Hold Tight Percolator 1.1qt",
+    "brand": "Stanley",
+    "kind": "percolator",
+    "specs": {
+      "Capacity": "1.1 qt / 6 cups",
+      "Material": "Stainless steel",
+      "Heat": "Stovetop or open fire"
+    },
+    "best_for": "Camp coffee for a crew",
+    "pros": [
+      "Stainless, campfire-proof",
+      "Brews for the whole hunting camp"
+    ],
+    "cons": [
+      "Percolator coffee is strong and can taste cooked if you let it run long"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: STANLEY Hold Tight Percolator Coffee Pot 1.1 qt | Stainless Steel 6 Cup Coffee Maker | Stove Top or Open Fire | Backpacking, Camping, Hiking Cookware | BPA-Free | Stainless Steel : Home & ",
+    "last_checked": "2026-11-20T22:07:35",
+    "last_http": 200
+  },
+  {
+    "asin": "B01EOOHEAQ",
+    "name": "Stanley Adventure Percolator 6-Cup",
+    "brand": "Stanley",
+    "kind": "percolator",
+    "specs": {
+      "Capacity": "6 cups",
+      "Material": "Stainless steel",
+      "Heat": "Stovetop or open fire"
+    },
+    "best_for": "Classic camp percolator",
+    "pros": [
+      "Same idea as the Hold Tight, classic design"
+    ],
+    "cons": [
+      "Same percolator caveat: watch your brew time"
+    ],
+    "amazon_category_hint": "Sports & Outdoors",
+    "status": "ok",
+    "amazon_title": "Amazon.com : Stanley Adventure Percolator - 6-Cup : Sports & Outdoors",
+    "last_checked": "2026-11-20T22:07:39",
+    "last_http": 200
+  },
+  {
+    "asin": "B07PY4WXXV",
+    "name": "Fellow Atmos Vacuum Canister",
+    "brand": "Fellow",
+    "kind": "storage",
+    "specs": {
+      "Type": "Manual vacuum canister",
+      "Capacity": "Check variant on Amazon (listing shows 0.4L)"
+    },
+    "best_for": "Keeping beans fresh in humid Lowcountry kitchens",
+    "pros": [
+      "Twist-to-vacuum lid pulls air out to slow staling"
+    ],
+    "cons": [
+      "Check the size variant you're ordering on the listing"
+    ],
+    "amazon_category_hint": "Kitchen",
+    "status": "ok",
+    "amazon_title": "Amazon.com: Fellow Atmos Vacuum Coffee Canister 0.4 Liter, Holds 6 oz Beans, Black | Vacuum Seal Preserves Freshness, Airtight Lid; for Coffee Grounds, Beans, Espresso, Tea & Spices; Stainless Steel B",
+    "last_checked": "2026-11-20T22:07:43",
+    "last_http": 200
+  }
+]

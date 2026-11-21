@@ -1,0 +1,61 @@
+{
+  "slug": "best-travel-coffee-maker-for-hunting",
+  "title": "Best Travel Coffee Maker For Hunting",
+  "dek": "TODO: one sentence promise for this reader.",
+  "keyword": "best travel coffee maker for hunting",
+  "glyph": "drip",
+  "updated": "2026-11-20",
+  "intro": [
+    "TODO: who searches 'best travel coffee maker for hunting', what problem they have, and what actually matters. Write from behind-the-bar experience; no invented testing claims.",
+    "TODO: second paragraph: what to look for."
+  ],
+  "how_we_picked": "TODO: honest criteria. Say where info comes from (Amazon listings, our own use).",
+  "picks": [
+    {
+      "asin": "B093DXS54M",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Coffee people who want a machine"
+    },
+    {
+      "asin": "B07QKF1V3M",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Camp coffee for a crew"
+    },
+    {
+      "asin": "B07H9G93WK",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Busy households that want great drip on a timer"
+    },
+    {
+      "asin": "B08F2H7SRX",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Big families, church mornings, budget"
+    },
+    {
+      "asin": "B0047BIWSK",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: The most versatile cheap brewer there is"
+    },
+    {
+      "asin": "B07YVL8SF3",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Truck, boat, deer stand, hotel"
+    }
+  ],
+  "table_columns": [
+    "Capacity",
+    "Carafe",
+    "Warranty",
+    "Half-batch",
+    "Material"
+  ],
+  "bar_tip": "TODO: one practical tip.",
+  "faq": [
+    {
+      "q": "TODO question",
+      "a": "TODO answer"
+    }
+  ],
+  "draft": true,
+  "_todo": "Add new products to data/products.json first (ASIN from the product URL), run check-links, then fill TODOs and run: python3 lcg.py publish best-travel-coffee-maker-for-hunting"
+}

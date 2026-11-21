@@ -1,0 +1,52 @@
+{
+  "slug": "best-drip-coffee-maker-for-families",
+  "title": "The Best Drip Coffee Maker for Families",
+  "dek": "Push-button coffee that's actually good, from 'feeds the whole house' to 'coffee nerd approved.'",
+  "keyword": "best drip coffee maker for family",
+  "glyph": "drip",
+  "updated": "2026-11-20",
+  "intro": [
+    "Most of the coffee we serve people at home comes out of a drip machine, and there's no shame in that. The difference between a good machine and a bad one is mostly about water temperature and how evenly it wets the grounds.",
+    "Cheap machines often brew too cool, which makes thin, sour coffee. The picks below either brew properly hot or are built around getting it right."
+  ],
+  "how_we_picked": "We favored machines known for proper brew temperature, then covered a big-capacity budget option. Specs come from the Amazon listings.",
+  "picks": [
+    {
+      "asin": "B093DXS54M",
+      "award": "Best overall (buy it for life)",
+      "verdict": "Hand-built, brews properly hot, long warranty. Expensive, but people keep these for a decade."
+    },
+    {
+      "asin": "B07H9G93WK",
+      "award": "Best with a timer",
+      "verdict": "SCA-certified brewing, a thermal carafe, and a programmable start. The practical favorite."
+    },
+    {
+      "asin": "B08F2H7SRX",
+      "award": "Best for big families on a budget",
+      "verdict": "14 cups, programmable, strength control. Pour into a thermos so the hot plate doesn't cook it."
+    }
+  ],
+  "table_columns": [
+    "Capacity",
+    "Carafe",
+    "Programmable",
+    "Warranty"
+  ],
+  "bar_tip": "Use about 2 tablespoons (10g) of coffee per 6 oz cup, and clean the machine with a descaler every month or two. Hard water in the Lowcountry builds scale faster than you'd think.",
+  "faq": [
+    {
+      "q": "Thermal or glass carafe?",
+      "a": "Thermal keeps coffee hot without cooking it. Glass on a hot plate is fine if you drink it within 30 minutes."
+    },
+    {
+      "q": "What is SCA certification?",
+      "a": "The Specialty Coffee Association tests home brewers for brew temperature, time, and evenness. It's a good shortcut to 'this brews properly.'"
+    },
+    {
+      "q": "Does the grinder matter for drip?",
+      "a": "Yes. A burr grinder improves any drip machine more than a pricier machine would."
+    }
+  ],
+  "draft": false
+}

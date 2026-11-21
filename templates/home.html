@@ -1,0 +1,32 @@
+<section class="hero"><div class="wrap">
+<svg class="steam" viewBox="0 0 300 260" aria-hidden="true"><path d="M90 250 C60 200 130 170 95 120 C65 80 120 50 100 10"/><path d="M150 250 C120 200 190 170 155 120 C125 80 180 50 160 10"/><path d="M210 250 C180 200 250 170 215 120 C185 80 240 50 220 10"/></svg>
+<div class="kicker">From behind a real coffee bar &middot; Hampton County, SC</div>
+<h1>Your kitchen is a coffee bar.<br><em>Stock it like one.</em></h1>
+<p class="lede">${tagline} Honest buying guides for grinders, brewers, espresso, cold brew and camp coffee, with no fake reviews and no made-up prices.</p>
+<p><a class="cta" href="#guides">Find your gear &rarr;</a> &nbsp; <a class="cta ghost" href="#finder">60-second brew finder</a></p>
+</div></section>
+<section class="board" id="guides"><div class="wrap"><div class="grid">${guide_cards}</div></div></section>
+<section class="block" id="finder"><div class="wrap"><div class="finder">
+<div class="kicker">Brew finder</div>
+<h2 class="sec">What should you buy first?</h2>
+<div class="q"><b>1. How do you drink it?</b><div class="opts" data-q="drink"><button data-v="black">Black / pot of coffee</button><button data-v="latte">Lattes &amp; milk drinks</button><button data-v="iced">Iced, always iced</button></div></div>
+<div class="q"><b>2. Where?</b><div class="opts" data-q="where"><button data-v="home">Kitchen</button><button data-v="out">Camp, boat, truck</button><button data-v="gift">It's a gift</button></div></div>
+<div class="q"><b>3. Already own a burr grinder?</b><div class="opts" data-q="grinder"><button data-v="yes">Yes</button><button data-v="no">No / not sure</button></div></div>
+<div id="finder-out" aria-live="polite">Pick an answer in each row.</div>
+</div></div></section>
+<section class="block"><div class="wrap">
+<h2 class="sec">House rules</h2>
+<div class="manifesto">
+<div><b>Grinder first.</b>The cheapest way to better coffee is almost never a fancier machine.</div>
+<div><b>No invented numbers.</b>We don't print prices, star ratings, or "tested 47 products" claims. Click through for live prices.</div>
+<div><b>Built for real mornings.</b>Humid kitchens, hard water, big families, 5 a.m. deer stands.</div>
+<div><b>Straight about money.</b>We earn a commission on some links. It never changes the pick.</div>
+</div></div></section>
+<script>
+(function(){var s={};var map={latte:'${slug_espresso}',iced:'${slug_cold}',out:'${slug_camp}',gift:'${slug_gift}',nogrinder:'${slug_grinder}',black:'${slug_drip}',pour:'${slug_pour}'};
+var names=${guide_names};
+document.querySelectorAll('.opts').forEach(function(g){g.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;g.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');s[g.dataset.q]=b.dataset.v;go();});});
+function go(){var o=document.getElementById('finder-out');if(!(s.drink&&s.where&&s.grinder)){o.textContent='Keep going…';return;}
+var k;if(s.where==='gift')k='gift';else if(s.where==='out')k='out';else if(s.grinder==='no'&&s.drink!=='iced')k='nogrinder';else if(s.drink==='latte')k='latte';else if(s.drink==='iced')k='iced';else k='black';
+var slug=map[k];o.innerHTML='Start here: <a class="cta" href="'+slug+'.html">'+names[slug]+' &rarr;</a>';}})();
+</script>

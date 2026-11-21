@@ -1,0 +1,61 @@
+{
+  "slug": "best-coffee-grinder-for-espresso",
+  "title": "Best Coffee Grinder For Espresso",
+  "dek": "TODO: one sentence promise for this reader.",
+  "keyword": "best coffee grinder for espresso",
+  "glyph": "grinder",
+  "updated": "2026-11-20",
+  "intro": [
+    "TODO: who searches 'best coffee grinder for espresso', what problem they have, and what actually matters. Write from behind-the-bar experience; no invented testing claims.",
+    "TODO: second paragraph: what to look for."
+  ],
+  "how_we_picked": "TODO: honest criteria. Say where info comes from (Amazon listings, our own use).",
+  "picks": [
+    {
+      "asin": "B0BV96VPSR",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: One grinder that does espresso and filter"
+    },
+    {
+      "asin": "B007F183LK",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: First real grinder for drip and pour-over"
+    },
+    {
+      "asin": "B07CSKGLMM",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Set-it-and-forget-it mornings"
+    },
+    {
+      "asin": "B00018RRRK",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Tight budget, upgrading from a blade grinder"
+    },
+    {
+      "asin": "B0CNDBVVDG",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: Quiet mornings, travel, camp"
+    },
+    {
+      "asin": "B00CH9QWOU",
+      "award": "TODO award",
+      "verdict": "TODO verdict. Auto-matched because: All-in-one espresso setup"
+    }
+  ],
+  "table_columns": [
+    "Type",
+    "Burrs",
+    "Settings",
+    "Best brew",
+    "Hopper"
+  ],
+  "bar_tip": "TODO: one practical tip.",
+  "faq": [
+    {
+      "q": "TODO question",
+      "a": "TODO answer"
+    }
+  ],
+  "draft": true,
+  "_todo": "Add new products to data/products.json first (ASIN from the product URL), run check-links, then fill TODOs and run: python3 lcg.py publish best-coffee-grinder-for-espresso"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "best-espresso-machine-for-beginners",
+  "title": "The Best Espresso Machine for Beginners",
+  "dek": "Lattes at home without a $3,000 setup or a barista certificate.",
+  "keyword": "best espresso machine for beginners",
+  "glyph": "espresso",
+  "updated": "2026-11-20",
+  "intro": [
+    "We pull shots all day, and here's the honest truth: home espresso is a hobby. It's very rewarding, but it takes a few weeks of wasted shots to get right, and the grinder matters as much as the machine.",
+    "These picks are the ones most likely to make you happy instead of frustrated. If you don't want a hobby, the moka pot at the bottom makes strong, espresso-style coffee with zero learning curve."
+  ],
+  "how_we_picked": "We chose beginner-friendly machines with strong support communities and one no-machine fallback. Specs are from the Amazon listings.",
+  "picks": [
+    {
+      "asin": "B07JVD78TT",
+      "award": "Best overall for lattes",
+      "verdict": "Automatic steam wand does the milk for you; heats up in seconds. Pair with a good grinder."
+    },
+    {
+      "asin": "B00CH9QWOU",
+      "award": "Best all-in-one",
+      "verdict": "Grinder built in, so one box gets you started. Huge community of tutorials."
+    },
+    {
+      "asin": "B08C96BG9H",
+      "award": "Best budget machine",
+      "verdict": "The cheapest real pump machine here. Expect to tinker."
+    },
+    {
+      "asin": "B00004RFRU",
+      "award": "Best no-machine alternative",
+      "verdict": "Not true espresso, but strong, rich, and nearly indestructible. Works on a camp stove too."
+    }
+  ],
+  "table_columns": [
+    "Type",
+    "Portafilter",
+    "Grinder",
+    "Milk",
+    "Pump",
+    "Heat-up"
+  ],
+  "bar_tip": "Fresh beans (roasted within the last month) matter more for espresso than any other brew method. Old beans make fast, sour, thin shots no matter the machine.",
+  "faq": [
+    {
+      "q": "Do I need a separate grinder?",
+      "a": "For the Bambino Plus and Stilosa, yes, one that can grind fine for espresso. The Barista Express has one built in."
+    },
+    {
+      "q": "Is a moka pot espresso?",
+      "a": "No. It brews at much lower pressure. It's strong and great for 'Cuban-style' or milk drinks, but it's its own thing."
+    },
+    {
+      "q": "How long until I'm good at it?",
+      "a": "Plan on a couple of weeks and a couple of bags of beans to dial in. That's normal."
+    }
+  ],
+  "draft": false
+}

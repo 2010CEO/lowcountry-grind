@@ -1,0 +1,74 @@
+{
+  "slug": "best-pour-over-coffee-setup",
+  "title": "The Best Pour-Over Coffee Setup for Home",
+  "dek": "The exact dripper, kettle, and scale to brew café-style pour-over in your kitchen, at three budgets.",
+  "keyword": "best pour over coffee setup",
+  "glyph": "pourover",
+  "updated": "2026-11-20",
+  "intro": [
+    "Pour-over is how most specialty coffee bars show off a single-origin coffee: hot water, a paper filter, and control over every step. At home it's cheap to start and hard to master, and the gear decides which part is hard.",
+    "You need three things: a dripper, a gooseneck kettle (for a slow, aimed pour), and a scale. Skip the scale and you're guessing. Skip the gooseneck and you're flooding the bed."
+  ],
+  "how_we_picked": "We built around the tools coffee bars already use for pour-over, then added value alternatives. Specs are from the Amazon listings.",
+  "picks": [
+    {
+      "asin": "B007VACS0W",
+      "award": "Best dripper",
+      "verdict": "The cone most cafés use. Cheap, ceramic, nothing to break down. It rewards good technique."
+    },
+    {
+      "asin": "B0CYLZ97S3",
+      "award": "Best starter bundle",
+      "verdict": "The same V60 with 100 filters, so you can brew the day it shows up. Easy gift."
+    },
+    {
+      "asin": "B0000YWF5E",
+      "award": "Best for brewing for two+",
+      "verdict": "Brews and serves in one beautiful vessel. Thick filters, very clean cup."
+    },
+    {
+      "asin": "B077JBQZPX",
+      "award": "Best kettle (buy once)",
+      "verdict": "Precise temperature and a pour you can steer. The premium pick."
+    },
+    {
+      "asin": "B07T1CH2HH",
+      "award": "Best-value kettle",
+      "verdict": "Temperature presets and keep-warm for a fraction of the price."
+    },
+    {
+      "asin": "B005YR0F40",
+      "award": "Best bigger-batch kettle",
+      "verdict": "1L capacity for full Chemex brews, still affordable."
+    },
+    {
+      "asin": "B08V1CSDJK",
+      "award": "Best scale",
+      "verdict": "0.1g accuracy and a built-in timer. The cheapest upgrade with the biggest payoff."
+    }
+  ],
+  "table_columns": [
+    "Type",
+    "Material",
+    "Size",
+    "Capacity",
+    "Temp control",
+    "Accuracy"
+  ],
+  "bar_tip": "Start at a 1:16 ratio (for example 20g coffee to 320g water), water just off the boil, about 3 minutes total. Too sour? Grind finer. Too bitter? Grind coarser.",
+  "faq": [
+    {
+      "q": "V60 or Chemex?",
+      "a": "V60 for one or two cups and more control; Chemex for brewing a pot to share and a cleaner, lighter cup."
+    },
+    {
+      "q": "Do I need a gooseneck kettle?",
+      "a": "For pour-over, yes. A regular kettle dumps water too fast to control extraction."
+    },
+    {
+      "q": "What grinder pairs with this?",
+      "a": "Any burr grinder from our grinder guide. The Baratza Encore is the easy default."
+    }
+  ],
+  "draft": false
+}
