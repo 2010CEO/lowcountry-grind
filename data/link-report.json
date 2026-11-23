@@ -1,7 +1,141 @@
 {
-  "checked_at": "2026-11-20T22:07:46",
+  "checked_at": "2026-11-23T22:48:02",
   "total": 28,
-  "ok": 28,
+  "ok": 9,
   "dead": [],
-  "unknown": []
+  "unknown": [
+    {
+      "asin": "B007F183LK",
+      "name": "Baratza Encore",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B07CSKGLMM",
+      "name": "OXO Brew Conical Burr Grinder",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B0BV96VPSR",
+      "name": "Fellow Opus",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B00018RRRK",
+      "name": "Cuisinart Supreme Grind DBM-8",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B0CNDBVVDG",
+      "name": "TIMEMORE Chestnut C3",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B007VACS0W",
+      "name": "Hario V60 Ceramic Dripper (02)",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B0CYLZ97S3",
+      "name": "Hario V60 Ceramic Dripper + 100 Filters",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B0000YWF5E",
+      "name": "Chemex Classic 6-Cup",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B077JBQZPX",
+      "name": "Fellow Stagg EKG",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B07T1CH2HH",
+      "name": "COSORI Gooseneck Kettle",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B08V1CSDJK",
+      "name": "TIMEMORE Black Mirror Basic",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B07H9G93WK",
+      "name": "OXO Brew 8-Cup",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B08F2H7SRX",
+      "name": "Cuisinart DCC-3200 PerfecTemp",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B00JVSVM36",
+      "name": "OXO Good Grips Cold Brew",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B07VJJJ764",
+      "name": "County Line Kitchen 64oz Cold Brew",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B00I7JKAQ0",
+      "name": "Hario Mizudashi 1000ml",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B07YVL8SF3",
+      "name": "AeroPress Go",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B07QKF1V3M",
+      "name": "Stanley Hold Tight Percolator 1.1qt",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    },
+    {
+      "asin": "B07PY4WXXV",
+      "name": "Fellow Atmos Vacuum Canister",
+      "http": 200,
+      "state": "blocked",
+      "was": "ok"
+    }
+  ]
 }
